@@ -21,14 +21,14 @@ Coded by www.creative-tim.com
 
 const colors = {
   background: {
-    default: "#1a2035",
-    sidenav: "#1f283e",
-    card: "#202940",
+    default: "#060606",
+    sidenav: "#242424",
+    card: "#262626",
   },
 
   text: {
-    main: "#ffffffcc",
-    focus: "#ffffffcc",
+    main: "#f5f5f5",
+    focus: "#f5f5f5",
   },
 
   transparent: {
@@ -47,33 +47,39 @@ const colors = {
   },
 
   primary: {
-    main: "#e91e63",
-    focus: "#e91e63",
+    main: "#68a097",
+    focus: "#5a8c83",
   },
 
   secondary: {
-    main: "#7b809a",
-    focus: "#8f93a9",
+    main: "#565656",
+    focus: "#666666",
   },
 
   info: {
-    main: "#1A73E8",
-    focus: "#1662C4",
+    main: "#565656",
+    focus: "#666666",
   },
 
   success: {
-    main: "#4CAF50",
-    focus: "#67bb6a",
+    main: "#68a097",
+    focus: "#5a8c83",
+  },
+
+  accent: {
+    main: "#68a097",
+    dark: "#4a7069",
+    focus: "#5a8c83",
   },
 
   warning: {
-    main: "#fb8c00",
-    focus: "#fc9d26",
+    main: "#565656",
+    focus: "#666666",
   },
 
   error: {
-    main: "#F44335",
-    focus: "#f65f53",
+    main: "#565656",
+    focus: "#666666",
   },
 
   light: {
@@ -81,9 +87,14 @@ const colors = {
     focus: "#f0f2f566",
   },
 
+  accentDark: {
+    main: "#4a7069",
+    focus: "#3e5d56",
+  },
+
   dark: {
-    main: "#344767",
-    focus: "#2c3c58",
+    main: "#262626",
+    focus: "#363636",
   },
 
   grey: {
@@ -100,8 +111,8 @@ const colors = {
 
   gradients: {
     primary: {
-      main: "#EC407A",
-      state: "#D81B60",
+      main: "#68a097",
+      state: "#5a8c83",
     },
 
     secondary: {

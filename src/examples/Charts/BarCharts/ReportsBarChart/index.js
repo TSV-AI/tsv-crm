@@ -52,16 +52,7 @@ function ReportsBarChart({ color, title, description, date, chart }) {
       <MDBox padding="1rem">
         {useMemo(
           () => (
-            <MDBox
-              variant="gradient"
-              bgColor={color}
-              borderRadius="lg"
-              coloredShadow={color}
-              py={2}
-              pr={0.5}
-              mt={-5}
-              height="12.5rem"
-            >
+            <MDBox bgColor={color} borderRadius="lg" py={2} pr={0.5} mt={-5} height="12.5rem">
               <Bar data={data} options={options} redraw />
             </MDBox>
           ),
